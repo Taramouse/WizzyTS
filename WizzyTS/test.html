@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/Content/themes/flat/jquery-ui-1.10.3.css" />
     <script src="/Scripts/jquery-2.1.4.js"></script>
     <script src="/Scripts/jquery-ui-1.11.4.js"></script>
+    <script src="Scripts/toolbar.js"></script>
     <style>
         span {
             color: rgba(255, 255, 255, 0.7);
@@ -68,15 +69,17 @@
 <body>
     <div id="toolbar" class="ui-widget-header ui-corner-all">
         <span>Wizzy Toolbox</span>
-        <button>Add Text</button>
-        <button>Add Image</button>
-        <button>Add File</button>
+        <button id="addText">Add Text</button>
+        <button id="addImage">Add Image</button>
+        <button id="addFile">Add File</button>
     </div>
-    <div id="resizable" class="ui-widget-content">
-        <h3 class="ui-widget-header">Resize \ Drag Me</h3>
-    </div>
-    <div id="resizable1" class="ui-widget-content">
-        <h3 class="ui-widget-header">Me Too!</h3>
+    <div id="wizzyContent">
+        <div id="resizable" class="ui-widget-content">
+            <h3 class="ui-widget-header">Resize \ Drag Me</h3>
+        </div>
+        <div id="resizable1" class="ui-widget-content">
+            <h3 class="ui-widget-header">Me Too!</h3>
+        </div>
     </div>
 </body>
 </html>
