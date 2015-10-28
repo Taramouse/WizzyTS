@@ -59,6 +59,7 @@
     <Content Include="Content\themes\flat\images\animated-overlay.gif" />
     <Content Include="Content\themes\flat\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\flat\images\ui-bg_flat_55_fbf9ee_40x100.png" />
+    <Content Include="Content\themes\flat\images\ui-bg_flat_65_2196f3_40x100.png" />
     <Content Include="Content\themes\flat\images\ui-bg_flat_65_ffffff_40x100.png" />
     <Content Include="Content\themes\flat\images\ui-bg_flat_75_cccccc_40x100.png" />
     <Content Include="Content\themes\flat\images\ui-bg_flat_75_dadada_40x100.png" />
